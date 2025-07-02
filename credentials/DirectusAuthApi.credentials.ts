@@ -3,6 +3,7 @@ import { Icon, ICredentialType, INodeProperties } from 'n8n-workflow';
 export class DirectusAuthApi implements ICredentialType {
     name = 'directusAuthApi';
     displayName = 'Directus Static Token API';
+		documentationUrl = 'https://directus.io/docs/api/authentication';
 		icon = 'file:directus.svg' as Icon;
     properties: INodeProperties[] = [
         {
